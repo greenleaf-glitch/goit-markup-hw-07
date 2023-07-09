@@ -25,7 +25,11 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <link rel="stylesheet" href="./css/mobile-menu.css" />
   </head>
   <body>
     <!-- Header -->
@@ -37,13 +41,13 @@
           <a class="logo link" href="./index.html"
             >Web<span class="logo-color-studio-header"
               >Studio</span
-            ></a
-          >
+            >
+          </a>
           <ul class="list page-nav-list">
             <!-- Studio -->
             <li class="menu-item">
               <a
-                class="menu-link link header-hover-active-underline"
+                class="menu-link-current link header-hover-active-underline header-active-underline"
                 href="./index.html"
                 >Studio</a
               >
@@ -51,7 +55,7 @@
             <!-- Portfolio -->
             <li class="menu-item">
               <a
-                class="menu-link-current link header-hover-active-underline header-active-underline"
+                class="menu-link link header-hover-active-underline"
                 href="./portfolio.html"
                 >Portfolio</a
               >
@@ -66,6 +70,22 @@
             </li>
           </ul>
         </nav>
+        <button
+          type="button"
+          class="header-burger-menu-btn menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            class="header-burger-menu-icon"
+            width="32"
+            height="22"
+          >
+            <use
+              href="./images/icons.svg#icon-burger-menu-button"
+            ></use>
+          </svg>
+        </button>
         <address class="address">
           <!-- <div class="address-container"> -->
           <ul class="list page-address-list">
