@@ -1,13 +1,13 @@
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 99.98px) {
   body {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) {
-  .body {
+@media screen and (min-width: 100px) {
+  /* .body {
     margin-top: 70px;
-  }
+  } */
 
   /* MOBILE COMMON */
 
@@ -21,6 +21,7 @@
     letter-spacing: 0.02em;
     color: var(--primary-color);
     background-color: #ffffff;
+    min-width: 320px;
   }
 
   .section-row-text {
@@ -38,7 +39,6 @@
   }
 
   .section {
-    min-width: 428px;
     padding-top: 96px;
     padding-bottom: 96px;
     /* outline: solid 1px teal; */
@@ -74,6 +74,17 @@
     color: var(--secondary-color, #2e2f42);
     text-align: center;
     margin-bottom: 8px;
+  }
+
+  .button {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* MOBILE HEADER */
@@ -650,17 +661,6 @@
     padding-right: 32px;
     padding-bottom: 16px;
     transition: background-color var(--trans-time-func);
-  }
-
-  .button {
-    font-family: "Roboto", sans-serif;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .modal-button:hover,
