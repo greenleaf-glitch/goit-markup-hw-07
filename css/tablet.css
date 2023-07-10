@@ -88,6 +88,14 @@
     max-width: 768px;
     margin: 72px auto 0;
   }
+  .hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+  }
 
   /* TABLET PRODUCTS */
 
@@ -226,11 +234,50 @@
   }
 
   /* TABLET PORTFOLIO */
+
+  .portfolio-main {
+    padding-top: 72px;
+  }
+
+  .portfolio-section {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
   .portfolio-card-img-style {
     display: block;
     overflow: hidden;
     width: 356px;
     height: 300px;
+  }
+
+  .portfolio-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 2 * 24px) / 3);
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .portfolio-button {
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+  }
+
+  .portfolio-button-list {
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+    margin-top: 0;
+    transition: color var(--trans-time-func),
+      background-color var(--trans-time-func),
+      border-color var(--trans-time-func),
+      box-shadow var(--trans-time-func);
   }
 }
 
