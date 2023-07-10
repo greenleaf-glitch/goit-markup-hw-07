@@ -34,14 +34,14 @@
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
   }
 
   .section {
     min-width: 428px;
     padding-top: 96px;
     padding-bottom: 96px;
-    outline: solid 1px teal;
+    /* outline: solid 1px teal; */
   }
 
   .main-header {
