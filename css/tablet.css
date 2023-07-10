@@ -82,12 +82,10 @@
 
   .hero-container {
     padding: 112px 54px;
-    height: 436px;
   }
 
   .hero-section {
-    width: 768px;
-    height: 436px;
+    max-width: 768px;
     margin: 72px auto 0;
   }
 
@@ -159,6 +157,80 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
+  }
+
+  /* TABLET FOOTER */
+  .footer {
+    background: var(--secondary-color);
+    /* width: 768px; */
+    margin: 0 auto;
+    /* height: 312px; */
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .footer-content-placer {
+    display: flex;
+    row-gap: 72px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 24px;
+    padding-left: 108px;
+  }
+
+  .footer-logo-slogan-box {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer-socials-container {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .footer-social-icons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+  }
+  .footer-subscribe-form-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .footer-subscribe-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 16px;
+    column-gap: 24px;
+  }
+  .footer-subscribe-form-input {
+    width: 264px;
+  }
+
+  /* TABLET PORTFOLIO */
+  .portfolio-card-img-style {
+    display: block;
+    overflow: hidden;
+    width: 356px;
+    height: 300px;
   }
 }
 
