@@ -89,12 +89,12 @@
   }
 
   .hero-section {
-    margin: 72px auto 0;
-    max-width: 1440px;
+    margin-top: 72px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 0;
   }
 
   .hero-container {
@@ -107,7 +107,7 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
   }
 
   .feature-item-box {
