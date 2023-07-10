@@ -195,9 +195,7 @@
   /* DESKTOP FOOTER */
   .footer {
     background: var(--secondary-color);
-    /* width: 1440px; */
     margin: 0 auto;
-    /* height: 312px; */
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -210,7 +208,6 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    /* padding-left: 108px; */
   }
 
   .footer-logo-slogan-box {
@@ -262,6 +259,10 @@
   }
 
   /* DESCTOP PORTFOLIO */
+
+  .portfolio-main {
+    padding-top: 0px;
+  }
 
   .portfolio-card-img-style {
     display: block;

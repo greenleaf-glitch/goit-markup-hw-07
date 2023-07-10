@@ -80,20 +80,22 @@
 
   /* TABLET HERO */
 
-  .hero-container {
-    padding: 112px 54px;
-  }
-
   .hero-section {
-    max-width: 768px;
+    width: 768px;
     margin: 72px auto 0;
   }
+
+  .hero-container {
+    padding: 112px 54px;
+    /* max-width: 768px; */
+  }
+
   .hero-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    min-width: 496px;
     margin-bottom: 48px;
   }
 
